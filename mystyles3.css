@@ -1,0 +1,355 @@
+.maindiv {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.maindiv {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    }
+
+.header_menu img[logo] {
+   margin-top: 29px;
+   margin-left: 50px;
+   }
+.header_menu button {
+    width: 57px;
+    margin-top: 21px;
+    margin-left: 20px;
+    border: none;
+    background: none;
+   }
+
+.header_menu p {
+    height: 24px;
+    color: grey;
+    font-size: 16px;
+    margin-top: 23px;
+    margin-left: 10px;
+    }
+    
+nav {
+    display: block;
+    margin-top: 23px;
+    margin-left: 90px;
+    }
+
+a {
+    display: inline-block;
+    height: 24px;
+    margin-right: 110px;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    }
+
+.container {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    }
+
+       .item1 {
+        position: relative;
+        height: 24px;
+        width: 86px;
+        color: blue;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 163px;
+        margin-left: 210px;
+        text-transform: uppercase;
+        }
+        
+        .item2 {
+        position: relative;
+        height: 120px;
+        width: 425px;
+        color: black;
+        font-size: 52px;
+        font-weight: 700;
+        margin-top: 6px;
+        margin-left: 210px;
+        text-transform: uppercase;
+        }
+        
+        .item3 {
+        position: relative;
+        height: 48px;
+        width: 250px;
+        color: grey;
+        font-size: 16px;
+        margin-top: 70px;
+        margin-left: 210px;
+        }
+        
+        .block_one button {
+        width: 213px;
+        height: 55px;
+        border: none;
+        margin-top: 100px;
+        margin-left: 210px;
+        }
+
+        .item4 {
+            position: relative;
+            height: 24px;
+            width: 42px;
+            color: blue;
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 150px;
+            margin-left: 50px;
+            text-transform: uppercase;
+            }
+            
+            .item5 {
+            position: relative;
+            height: 85px;
+            width: 400px;
+            color: black;
+            font-size: 38px;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-left: 50px;
+            text-transform: uppercase;
+            }
+            
+            .item6 {
+            position: relative;
+            height: 70px;
+            width: 350px;
+            color: grey;
+            font-size: 16px;
+            margin-top: 40px;
+            margin-left: 50px;
+            }
+            
+            .block_four button {
+            width: 213px;
+            border: none;
+            margin-top: 40px;
+            margin-left: 50px;
+            }
+
+           .block_six, .block_seven, .block_eight {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 1fr;
+            }
+
+            .item7 {
+                position: relative;
+                color: blue;
+                font-weight: 700;
+                font-size: 16px;
+                margin-top: 100px;
+                margin-left: 210px;
+            }
+
+            .item8 {
+                position: relative;
+                max-width: 430px;
+                color: black;
+                font-size: 38px;
+                font-weight: 700;
+                margin-top: 54px;
+                margin-left: 210px;
+                text-transform: uppercase;
+            }
+
+            .item9 {
+                position: relative;
+                color: black;
+                font-weight: 700;
+                font-size: 16px;
+                margin-top: 94px;
+                margin-left: 50px;
+            }
+
+            .item10 {
+                max-width: 185px;
+                position: relative;
+                color: grey;
+                font-weight: 700;
+                font-size: 16px;
+                margin-top: 221px;
+                margin-left: 50px;
+                float: left;
+            }
+
+            .insidetwo img {
+               margin-top: 200px;
+               margin-left: 25px;
+               padding: 65px 35px 0 35px;
+            }
+
+            .block_seven, .block_eight, .block_nine, .block_ten {
+                position: relative;
+            }
+
+            .insidethree {
+                display: flex;
+                flex-wrap: wrap;
+                background: blue;
+            }
+
+            .insidefive {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .item11, .item14 {
+                position: absolute;
+                margin-top: 30px;
+                margin-left: 40px;
+            }
+
+            .item12, .item15 {
+                position: absolute;
+                margin-top: 60px;
+                margin-left: 40px;
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            .item13, .item16 {
+                position: absolute;
+                margin-top: 360px;
+                margin-left: 40px;
+                font-size: 16px;
+                max-width: 185px;
+            }
+
+            .insidethree p {
+                color: white;
+                margin-left: 50px;
+            }
+
+            .insidethree img {
+                position: absolute;
+                background: white;
+                padding: 25px;
+                align-self: flex-end;
+                margin-left: 280px;   
+                border-bottom: 1px solid blue;           
+            }
+
+            .insidefive img {
+                position: absolute;
+                padding: 25px;
+                align-self: flex-end;
+                margin-left: 280px;   
+            }
+
+            .item17 {
+                position: absolute;
+                margin-left: 212px;
+                margin-top: 180px;
+                font-size: 18px;
+                color: grey;
+            }
+
+            .images2 {
+                display: flex;
+                flex-wrap: wrap; 
+                align-items: center;
+                margin-top: 738px;
+                margin-left: 400px;
+                gap: 40px;
+            }
+
+            .item18 {
+                position: absolute;
+                max-width: 200px;
+                font-size: 16px;
+                color: grey;
+                margin-left: 400px;
+                margin-top: 30px;
+            }
+                
+            .item19 {
+                position: absolute;
+                font-size: 20px;
+                color: blue;
+                text-transform: uppercase;
+                margin-left: 28px;
+                margin-top: 126px;
+            }
+
+            .item20 {
+                position: absolute;
+                max-width: 488px;
+                font-size: 38px;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-left: 28px;
+                margin-top: 180px;
+            }
+
+            .item21 {
+                position: absolute;
+                max-width: 410px;
+                font-size: 18px;
+                color: grey;
+                font-weight: 700;
+                margin-left: 28px;
+                margin-top: 376px;
+            }
+
+            .images3 {
+                display: flex;
+                flex-wrap: wrap; 
+                margin-top: 738px;
+                margin-left: 28px;
+                gap: 40px;
+            }
+
+            .block_ten img:nth-child(3) {
+                margin-left: 100px;
+            }
+
+            .info2 {
+                display: flex;
+                flex-wrap: wrap; 
+                flex-direction: row;
+            }
+
+            .item22, .item23 {
+               max-width: 180px;
+               font-size: 16px;
+               color: grey;
+               margin-left: 28px;
+               margin-top: 30px;
+            }
+
+            .item23 {
+                margin-left: 160px;
+            }
+
+            @media screen and(max-width: 800px) {
+                .container {
+               grid-template-columns: 1fr;
+               }
+               }
+   
+            @media screen and(max-width: 800px) {
+                .item5, .item8, .item20 {
+                    font-size: 22px;
+                }
+                }
+
+            @media screen and(max-width: 800px) {
+                    .item2 {
+                        font-size: 36px;
+                    }
+                    }
+         
